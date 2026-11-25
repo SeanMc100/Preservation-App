@@ -3,8 +3,18 @@ import Playgrounds
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack {
+                Spacer()
+                Button("Button", systemImage: "plus") {
+                    
+                }
+                .padding(.trailing,30)
+                .labelStyle(.iconOnly)
+            }
+            
+            Spacer()
+        }
     }
 }
 
