@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserLogView: View {
     @State private var itemNAME = ""
-    @State var userlog: UserLog
+    @State var userlog = UserLog()
     
         var body: some View {
             ZStack {
